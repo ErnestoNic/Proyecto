@@ -12,7 +12,7 @@ a:visited {
 }
 
 a:hover {
-    color: chartreuse;
+    color: lime;
 }
 
 .dropdown {
@@ -28,4 +28,79 @@ a:hover {
 .nav-item {
     color: blue;
     size: 20px;
+}
+
+.busqueda {
+    height: auto;
+    width: 60%;
+}
+
+.btn-group {
+    background-color: transparent;
+}
+
+.fa {
+    color: chartreuse;
+    font-size: 20px;
+    background-color: transparent;
+    background-image: none;
+}
+
+.form-search {
+    position: absolute;
+}
+
+input[type=text] {
+    width: 30%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: white;
+    background-color: transparent;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+}
+
+input[type=text]:hover {
+    border: 2px solid lime;
+}
+
+input[type=text]:focus {
+    width: 200%;
+    border-color: 2px solid lime;
+    transition: width 0.4s ease-in-out;
+    -webkit-transition: width 0.4s ease-in-out;
+    -moz-transition: width 0.4s ease-in-out;
+    -ms-transition: width 0.4s ease-in-out;
+    -o-transition: width 0.4s ease-in-out;
+}
+
+.button {
+    background: transparent;
+    border-style: none;
+}
+
+.icono-busqueda {
+    color: white;
+    size: 1px;
+}
+
+.icono-busqueda:hover {
+    transform: rotate(90grad);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    color: lime;
+    -webkit-transform: rotate(90grad);
+    -moz-transform: rotate(90grad);
+    -ms-transform: rotate(90grad);
+    -o-transform: rotate(90grad);
+}
+
+.material-icons:visited {
+    border-style: none;
+    background: none;
 }
